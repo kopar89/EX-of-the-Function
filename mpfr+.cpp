@@ -25,7 +25,6 @@ void func(mpfr::mpreal x, mpfr::mpreal y)
     tmp4 = x3 * (-2);
 
     // сумма + 832
-    //mpreal::set_default_rnd(MPFR_RNDN);
     result = tmp1 + tmp2 + tmp3 + tmp4 + 832;
 
     // умножаем на lambda = 1/107751
