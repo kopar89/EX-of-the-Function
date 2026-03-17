@@ -22,7 +22,7 @@ void func(mpf_t x, mpf_t y)
     mpf_mul(tmp3, x, y2);
     mpf_mul_ui(tmp3, tmp3, 29);
 
-    // -2*x^5 (ИСПРАВЛЕНО: использован mpf_mul_si вместо передачи -2 как mpf_t)
+    // -2*x^5
     mpf_pow_ui(x5, x, 5);
     mpf_mul_ui(tmp4, x5, 2);
     mpf_neg(tmp4, tmp4);
